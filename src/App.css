@@ -7,6 +7,29 @@
   pointer-events: none;
 }
 
+
+.list{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+
+.todo-item{
+  display: flex;
+  align-items: center;
+
+}
+
+.complete-item{
+  text-decoration-line: line-through;
+}
+
+
+
+
+
+
 @media (prefers-reduced-motion: no-preference) {
   .App-logo {
     animation: App-logo-spin infinite 20s linear;
